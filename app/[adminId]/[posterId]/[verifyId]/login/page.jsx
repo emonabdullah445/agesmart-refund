@@ -1,10 +1,7 @@
 "use client";
 import LoginForm from "@/app/components/LoginForm";
 import { useParams } from "next/navigation";
-export const metadata = {
-  title: "Accept Refund",
-  description: "Escort alligator",
-};
+
 const page = () => {
   const params = useParams();
   return (
