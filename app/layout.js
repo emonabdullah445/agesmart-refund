@@ -7,8 +7,8 @@ import "react-toastify/dist/ReactToastify.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Escort alligator: review of escort",
-  description: "Escort alligator",
+  title: "agesmat-refund",
+  description: "agesmat-refund",
 };
 
 export default function RootLayout({ children }) {
