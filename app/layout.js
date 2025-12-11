@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "agesmat-refund",
+  title: "Verification",
   description: "agesmat-refund",
 };
 
