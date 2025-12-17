@@ -16,15 +16,15 @@ export default function First() {
   return (
     <div className="min-h-screen w-full flex flex-col items-center bg-white text-black font-sans">
       {/* Top pink bar */}
-      <div className="w-full bg-pink-500 py-4 text-center">
-        <h1 className="text-2xl font-bold text-white">
+      <div className="w-full py-0.5 bg-[#FF2AAC] text-center shadow-[0_6px_10px_rgba(0,0,0,0.25)]">
+
+        <h1 className="text-3xl font-bold leading-7 text-white">
           <span className="text-yellow-300">Mega</span>
-          <span className="text-cyan-100">Personals</span>
-          <br />
-          <span className="text-sm font-normal text-white">
-            personals classifieds
-          </span>
+          <span className="text-[#7EADEF]">Personals</span>
         </h1>
+        <span className="text-md font-normal text-white ml-3">
+          personals classifieds
+        </span>
       </div>
 
       {/* Main content */}
